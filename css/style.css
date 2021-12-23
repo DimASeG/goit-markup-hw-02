@@ -1,0 +1,168 @@
+/* main body background color #e5e5e5 */
+/* Hiro+footer backgraund color #2F303A */
+
+/* main text color dark #212121  
+ wite #FFFFFF   */
+/* secondary text color heater #757575 
+footer rgba(255, 255, 255, 0, 6)*/
+
+/* accent text link color #2196F3 */
+
+/* logo color blue #2196F3
+ black #000000 */
+
+:root {
+  --main--backgraund--color: #e5e5e5;
+  --secondary--backgraund--color: #2f303a;
+
+  --primery-text-decoration-color: #757575;
+  --text-decoration-color: #000000;
+  --alternative-text-decoration-color: #fff;
+  --main-link-color: #212121;
+
+  --accent-link-color: #2196f3;
+  --heater-contact-text-color: #757575;
+  --footer-contact-text-color: rgba(255, 255, 255, 0.6);
+}
+
+.body {
+  background-color: var(--main--backgraund--color);
+  font-family: roboto, sans-serif;
+
+  font-size: 14px;
+  line-height: 1.7;
+}
+
+.list {
+  list-style: none;
+}
+
+.logo {
+  color: #2196f3;
+  font-family: Raleway, sans-serif;
+  font-size: 26px;
+  line-height: 1.2;
+  text-decoration: none;
+}
+
+/* navigation for site in header  */
+
+.site-nav .link {
+  color: var(--main-link-color);
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+  text-decoration: none;
+}
+
+.site-nav .link:hover,
+.site-nav .link:focus {
+  color: var(--accent-link-color);
+}
+
+.site-nav .link.current {
+  color: var(--accent-link-color);
+}
+
+/*  client contacts in header */
+
+.contact-list .conection {
+  color: var(--heater-contact-text-color);
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+  text-decoration: none;
+}
+
+.contact-list .conection:hover,
+.contact-list .conection:focus {
+  color: var(--accent-link-color);
+}
+
+/* hiro */
+
+.hiro {
+  background: var(--secondary--backgraund--color);
+}
+
+.hiro-title {
+  color: var(--text-decoration-color);
+  font-weight: 400;
+  font-size: 44px;
+  line-height: 1.36;
+  text-align: center;
+  letter-spacing: 0.06em;
+}
+
+/* advantage section */
+
+.advantages-list .title {
+  color: var(--text-decoration-color);
+  /* font-weight: 700;
+  font-size: 14px;
+  line-height: 1.14; */
+}
+
+.advantages-list .text {
+  color: var(--primery-text-decoration-color);
+  /* font-weight: 400;
+  font-size: 14px;
+  line-height: 1.4; */
+}
+
+/*our team section */
+
+.team-section .text {
+  color: var(--primery-text-decoration-color);
+}
+
+/* Footer */
+
+.footer {
+  background: var(--secondary--backgraund--color);
+  color: var(--alternative-text-decoration-color);
+}
+
+.footer-contacts .conection {
+  color: var(--footer-contact-text-color);
+  text-decoration: none;
+}
+
+.footer-contacts .conection:hover,
+.footer-contacts .conection:focus {
+  color: var(--accent-link-color);
+}
+
+/* Button */
+
+.button {
+  background-color: var(--accent-link-color);
+  color: var(--main--backgraund--color);
+
+  /* font-size: ;
+  padding: 12px 24px;
+  display: inline-block; */
+}
+
+.button.primary {
+  background-color: var(--accent-link-color);
+  color: var(--main--backgraund--color);
+}
+
+.button.secondary {
+  background-color: var(--main--backgraund--color);
+  color: var(--accent-link-color);
+}
+
+/* filter button */
+
+.filter-button {
+  color: var(--main-link-color);
+}
+
+.filter-button:hover,
+.filter-button:focus {
+  color: var(--accent-link-color);
+}
