@@ -12,7 +12,7 @@ footer rgba(255, 255, 255, 0, 6)*/
  black #000000 */
 
 :root {
-  --main--backgraund--color: #e5e5e5;
+  /* --main--backgraund--color: #e5e5e5; */
   --secondary--backgraund--color: #2f303a;
 
   --primery-text-decoration-color: #757575;
@@ -25,7 +25,7 @@ footer rgba(255, 255, 255, 0, 6)*/
   --footer-contact-text-color: rgba(255, 255, 255, 0.6);
 }
 
-.body {
+body {
   background-color: var(--main--backgraund--color);
   font-family: roboto, sans-serif;
 
@@ -35,19 +35,27 @@ footer rgba(255, 255, 255, 0, 6)*/
 
 .list {
   list-style: none;
+  /* text-decoration: none; */
 }
 
 .logo {
-  color: #2196f3;
+  color: var(--accent-link-color);
   font-family: Raleway, sans-serif;
   font-size: 26px;
   line-height: 1.2;
   text-decoration: none;
 }
+.logo-continuation-footer {
+  color: var(--alternative-text-decoration-color);
+}
+
+.logo-continuation-header {
+  color: var(--text-decoration-color);
+}
 
 /* navigation for site in header  */
 
-.site-nav .link {
+.site-nav-link {
   color: var(--main-link-color);
   font-weight: 500;
   font-size: 14px;
@@ -56,12 +64,12 @@ footer rgba(255, 255, 255, 0, 6)*/
   text-decoration: none;
 }
 
-.site-nav .link:hover,
-.site-nav .link:focus {
+.site-nav-link:hover,
+.site-nav-link:focus {
   color: var(--accent-link-color);
 }
 
-.site-nav .link.current {
+.site-nav-link.current {
   color: var(--accent-link-color);
 }
 
@@ -81,15 +89,15 @@ footer rgba(255, 255, 255, 0, 6)*/
   color: var(--accent-link-color);
 }
 
-/* hiro */
+/* hero */
 
-.hiro {
+.hero {
   background: var(--secondary--backgraund--color);
 }
 
-.hiro-title {
+.hero-title {
   color: var(--text-decoration-color);
-  font-weight: 400;
+  font-weight: 900;
   font-size: 44px;
   line-height: 1.36;
   text-align: center;
