@@ -61,9 +61,12 @@ body {
 
 /* navigation for site and client contacts in header  */
 
+.site-nav .site-nav-link {
+  text-decoration: none;
+}
+
 .site-nav-link {
   color: var(--main-link-color);
-  font-weight: normal;
   font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.02em;
@@ -113,7 +116,6 @@ body {
 
 .advantages-list-text {
   color: var(--primery-text-decoration-color);
-  font-weight: 400;
   font-size: 14px;
   line-height: 1.4;
   letter-spacing: 0.03em;
@@ -152,7 +154,6 @@ body {
 }
 
 .team-section-text {
-  font-weight: 400;
   font-size: 16px;
   line-height: 1.18;
   /* text-align: center; */
@@ -178,7 +179,6 @@ body {
 
 .main-portfolio-prink {
   color: var(--primery-text-decoration-color);
-  font-weight: normal;
   font-size: 16px;
   line-height: 1.87;
   letter-spacing: 0.03em;
@@ -194,7 +194,6 @@ body {
 .footer-contacts .conection {
   color: var(--footer-contact-text-color);
   text-decoration: none;
-  font-weight: normal;
   font-size: 14px;
   line-height: 1.71;
 
@@ -211,10 +210,6 @@ body {
 .button {
   background-color: var(--accent-link-color);
   color: var(--alternative-text-decoration-color);
-
-  /* font-size: ;
-  padding: 12px 24px;
-  display: inline-block; */
 }
 
 .button.primary {
@@ -231,6 +226,7 @@ body {
 
 .filter-button {
   color: var(--main-link-color);
+  cursor: pointer;
 }
 
 .filter-button:hover,
@@ -243,6 +239,7 @@ body {
 
 .hero-button {
   color: var(--main-link-color);
+  cursor: pointer;
 }
 
 .hero-button:hover,
