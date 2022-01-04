@@ -50,6 +50,7 @@ body {
   font-size: 26px;
   line-height: 1.2;
   text-decoration: none;
+  letter-spacing: 0.03em;
 }
 .logo-continuation-footer {
   color: var(--alternative-text-decoration-color);
@@ -67,6 +68,7 @@ body {
 
 .site-nav-link {
   color: var(--main-link-color);
+  font-weight: 500;
   font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.02em;
@@ -112,6 +114,7 @@ body {
   font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.03em;
+  text-transform: uppercase;
 }
 
 .advantages-list-text {
@@ -171,7 +174,7 @@ body {
 
 .main-portfolio-heading-h2 {
   color: var(--main-link-color);
-  font-weight: bold;
+  font-weight: 700;
   font-size: 18px;
   line-height: 2;
   letter-spacing: 0.06em;
@@ -203,6 +206,15 @@ body {
 .footer-contacts .conection:hover,
 .footer-contacts .conection:focus {
   color: var(--accent-link-color);
+}
+
+.address {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
 }
 
 /* Button */
@@ -238,12 +250,25 @@ body {
 /* Hero button */
 
 .hero-button {
-  color: var(--main-link-color);
+  color: var(--alternative-text-decoration-color);
+
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 700;
+
+  background-color: var(--accent-link-color);
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  border-radius: 4px;
+  border: transparent;
+  padding: 10px 22px;
   cursor: pointer;
+  /* display: flex;
+  align-items: center;
+  text-align: center; */
 }
 
 .hero-button:hover,
 .hero-button:focus {
-  color: var(--alternative-text-decoration-color);
+  color: var(--main-link-color);
   background-color: var(--accent-link-color);
 }
